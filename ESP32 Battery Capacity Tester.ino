@@ -8,7 +8,7 @@ const int dac2 = 26;
 const int adc = 35;
 
 const int touchThreshold = 30;
-const int minBatteryVoltage = 2800; // mAh
+const int minBatteryVoltage = 2800; // voltage * 100
 
 int adcValue = 0;
 
